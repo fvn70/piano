@@ -1,4 +1,4 @@
-let keys = ["KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ"];
+let keys = ["KeyA", "KeyS", "KeyD", "KeyF", "KeyG", "KeyH", "KeyJ", "KeyW", "KeyE", "KeyT", "KeyY", "KeyU"];
 
 document.addEventListener("keydown", function (event) {
     let msg = "Wrong key pressed!"
