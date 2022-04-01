@@ -4,7 +4,9 @@ document.addEventListener("keydown", function (event) {
     let msg = "Wrong key pressed!"
     keys.forEach(function (value) {
         if (event.code == value) {
-            msg = "The '" + value[3] +"' key is pressed.";
+            // msg = "The '" + value[3] +"' key is pressed.";
+            let sound = new Audio("../white_keys/" + value[3] + ".mp3");
+            sound.play();
         }
     })
     console.log(msg)
